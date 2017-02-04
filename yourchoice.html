@@ -1,0 +1,138 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <script src="C:\C44563\AO2Garigipati\initializr-verekia-4.0 (2)\initializr\AO2.js"></script>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <div class ="row">
+                    <h1 class="title">Neeraja</h1>
+               <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="yourchoice.html">YourChoice</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                   </ul>
+                </nav>
+            </header>
+            </div>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+                <h1>My Wish Store</h1>
+                <h3>Items in the store</h3>
+                <ul class="color">
+                <li>iPhone</li>
+                <li>Samsung</li>
+                <li>Redme</li>
+                <li>onePlus</li>
+                <li>Honor</li>
+                <li>Microsoft</li>
+</ul>
+<p>Enter your brand</p>
+
+<select id="brand">
+    <option value="600">iPhone</option>
+    <option value="450">Samsung</option>
+    <option value="300">Redme</option>
+    <option value="200">onePlus</option>
+    <option value="250">Honor</option>
+    <option value="300">Microsoft</option>
+    </select>
+
+ <p>The look(Do you want to customize)</p>
+      <input type ="radio" name="Mode" value="Regular" id="mode1" >Regular<br>
+       <input type ="radio" name="Mode" value="Customize" id="mode2">Customize<br>
+ <p>Enter your requirements<p>
+    <input type="text" placeholder="Requirements" class=form-control size="35" > 
+     <input type="submit" value="submit">
+<br>
+
+<p>Enter the number of items you want to buy</p>
+ <input type="number" placeholder="enter value" class=form-control id="items" >
+ <input type="submit" value="submit">
+  <br>
+
+<!--<button onclick="content.launch()">Get Price</button>-->
+<p>Your order Price<p>
+    <button onclick="myfunction()">get price</button>
+    <p id="demo">Price is: </p>
+   <!--<p> <button onclick="myfunction()">get price</button></p>-->
+<!--<p id="demo"></p>-->
+<!--<input type="text" class=form-control >-->
+<p>Enter your details</p>
+<input type="text" placeholder="First Name" class=form-control size="20" >
+<input type="text" placeholder="Last Name" class=form-control size="20" >
+<br>
+<input type="text" placeholder="AddressLine1" class=form-control size="25" >
+<input type="text" placeholder="AddressLine2" class=form-control size="25" >
+<input type="text" placeholder="AddressLine3" class=form-control size="25" >
+<br>
+<input type="submit" value="submit">
+                  
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <!--<div class="footer-container">
+            <footer class="wrapper">
+                <h3>footer</h3>
+                <iframe src="https://www.youtube.com/watch?v=wxQR5kokq68 "width="560" height="315" frameborder="0" allowfullscreen></iframe>
+            </footer>
+        </div>-->
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!--
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+    //-->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!--<script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+        //-->
+        <!--<script >
+        function myfunction()
+        {
+         var i=document.getElementById('brand').value;
+         var j;
+         var req;
+        if(document.getElementById('mode1').value=="Regular")
+        req=0;
+        if(document.getElementById('mode2').value=="Customize")
+        req=10;
+        var noofitem= document.getElementById('items').value;
+         var k=(parseInt(i)+parseInt(req))*noofitem;
+         document.getElementById('demo').innerHTML=k;
+        }
+</script>-->
+    </body>
+</html>

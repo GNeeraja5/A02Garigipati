@@ -1,1 +1,2 @@
-# A02Garigipati
+is.In this assignment I am using html code to create my own website here I am providing three pages with names home,your choice,contact .there I am providing my information about my self,my wish store and how to conatact me respectively.I have used html and css for doing this.
+In yourchoice page customer going to select the phone,requirements and number of items and this page produces price of the phone this uses javascript.
